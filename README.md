@@ -82,7 +82,7 @@ This pipeline is designed to:
     │   └── redis_consumer.py      # Consumes queued logs from Redis
     │
     ├── sample_logs/
-    │   └── example_license.log
+    │   └── sample_logs.log
     │
     ├── requirements.txt
     ├── requirements-dev.txt
