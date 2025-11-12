@@ -1,0 +1,10 @@
+[Unit]
+Description=Run log_archiver every 10 minutes
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=10min
+Unit=log_archiver.service
+
+[Install]
+WantedBy=timers.target
