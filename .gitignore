@@ -1,0 +1,40 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ---- Virtual environments ----
+venv/
+.env/
+.venv/
+env/
+
+# ---- Logs & databases ----
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# ---- Config files (private info) ----
+config/*.yml
+config/*.yaml
+config/*.json
+*.env
+*.ini
+
+# ---- System files ----
+.DS_Store
+Thumbs.db
+
+# ---- IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Cache / temp ----
+.cache/
+tmp/
+*.tmp
