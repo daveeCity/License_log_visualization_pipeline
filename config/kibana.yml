@@ -1,0 +1,37 @@
+# =================== Kibana Configuration Template ===================
+# Template configuration for development or demo environments.
+# Reference: https://www.elastic.co/guide/en/kibana/current/settings.html
+
+# =================== Server ===================
+server.port: 5601
+server.host: "0.0.0.0"
+server.name: "kibana-node"
+
+# =================== Elasticsearch Connection ===================
+# Replace <your-elasticsearch-host> and <your-token> before use
+elasticsearch.hosts: ["https://<your-elasticsearch-host>:9200"]
+# Use either a username/password OR a service account token (recommended)
+# elasticsearch.username: "kibana_system"
+# elasticsearch.password: "<your-password>"
+# elasticsearch.serviceAccountToken: "<your-service-account-token>"
+
+# Optional SSL settings
+# elasticsearch.ssl.certificateAuthorities: ["/path/to/your/CA.crt"]
+# elasticsearch.ssl.verificationMode: full
+
+# =================== Logging ===================
+logging:
+  appenders:
+    file:
+      type: file
+      fileName: /var/log/kibana/kibana.log
+      layout:
+        type: json
+  root:
+    appenders:
+      - default
+      - file
+
+# =================== Misc ===================
+pid.file: /run/kibana/kibana.pid
+i18n.locale: "en"
