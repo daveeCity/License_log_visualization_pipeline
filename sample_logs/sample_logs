@@ -1,0 +1,15 @@
+[2024-09-14 08:12:44] [INFO] [HOST] [USER] logged into the system from [IP]
+[2024-09-14 08:13:07] [INFO] Launching [PATH] - Version 7.1.4
+[2024-09-14 08:13:20] [INFO] Connected to license server [IP]
+[2024-09-14 08:13:22] [LICENSE] License [LICENSE_ID] assigned to [USER]
+[2024-09-14 08:15:11] [WARNING] License [LICENSE_ID] about to expire in 5 days
+[2024-09-14 08:16:03] [INFO] User [USER] accessed SmarTeam project "Wing_Assembly"
+[2024-09-14 08:16:45] [ERROR] Failed to connect to [IP]: timeout reached
+[2024-09-14 08:17:00] [INFO] Reconnecting to license server [IP]
+[2024-09-14 08:17:14] [LICENSE] License successfully renewed for [USER]
+[2024-09-14 08:18:59] [INFO] Exporting report to [PATH]\LicenseReports\[USER]_usage_2024.csv
+[2024-09-14 08:19:25] [WARNING] File [PATH]\temp\[USER]_cache.tmp exceeds size limit
+[2024-09-14 08:20:03] [ERROR] Missing dependency at [PATH]\bin\engine.dll
+[2024-09-14 08:20:31] [INFO] Sending summary email to [EMAIL]
+[2024-09-14 08:21:00] [LICENSE] License released: [LICENSE_ID]
+[2024-09-14 08:22:10] [INFO] User [USER] logged out successfully
