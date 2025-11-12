@@ -1,0 +1,9 @@
+#Core dependency
+redis>=5.0.0
+
+#Optional utilities
+pandas>=2.0.0       #for optional data export/analysis from SQLite
+requests>=2.31.0    #for optional integrations like webhooks or REST APIs
+
+#System utilities (usually preinstalled)
+argparse>=1.4.0
