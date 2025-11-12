@@ -1,0 +1,16 @@
+[Unit]
+Description=License Log Archiver & Redis Buffer
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/<user>/path/to/script/log_archiver.py
+WorkingDirectory=/home/<user>/path/to/scripts
+Restart=on-failure
+RestartSec=10
+User=<user>
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
